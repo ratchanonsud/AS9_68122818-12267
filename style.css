@@ -1,0 +1,105 @@
+body{
+    background:#f5f6fa;
+    font-family: Arial, sans-serif;
+    }
+    
+    /* banner */
+    
+    .banner{
+    height:500px;
+    background-image:url("swapp3.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    }
+    
+    .banner-text{
+    background:rgba(0,0,0,0.6);
+    padding:30px;
+    border-radius:10px;
+    }
+    
+    .banner h1{
+    font-size:50px;
+    }
+    
+    /* movie card */
+    
+    .movie-card{
+    border:none;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    }
+    
+    .movie-card img{
+    height:420px;
+    object-fit:cover;
+    }
+    
+    .movie-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.3);
+    }
+    
+    /* about */
+    
+    .about-section{
+    background:white;
+    padding:60px 0;
+    margin-top:60px;
+    }
+    
+    /* contact form */
+    
+    .contact-form{
+    max-width:500px;
+    margin:auto;
+    }
+    
+    /* modal contact popup */
+    
+    .modal-content{
+    border-radius:15px;
+    border:none;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    }
+    
+    .modal-header{
+    border-bottom:none;
+    }
+    
+    .modal-title{
+    font-weight:bold;
+    font-size:20px;
+    }
+    
+    .modal-body button{
+    border-radius:10px;
+    font-weight:500;
+    }
+    
+    /* footer */
+    
+    footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+    }
+    
+    footer .social a{
+    color:white;
+    font-size:25px;
+    margin:10px;
+    transition:0.3s;
+    }
+    
+    footer .social a:hover{
+    color:#0d6efd;
+    }
